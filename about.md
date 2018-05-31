@@ -4,10 +4,10 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Name: Nguyễn Hữu Nhật
-Birthday: 16/07
-Student of Nha Trang University
-Dev at RGame.vn</p>
+<p>Name: Nguyễn Hữu Nhật</p>
+<p>Birthday: 16/07</p>
+<p>Student of Nha Trang University</p>
+<p>Dev at RGame.vn</p>
 
 <p>There is no best… only better.</p>
 
