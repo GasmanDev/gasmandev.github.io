@@ -30,8 +30,8 @@ layout: page
 	<li>TDD e Continuous Integration</li>-->
 	<li>Pawn</li>
 	<li>C/C++ </li>
-	<li>Java (Beginer)</li>
-	<li>HTML - Javascript - CSS (Beginer)</li>
+	<li>Java (Beginner)</li>
+	<li>HTML - Javascript - CSS (Beginner)</li>
 </ul>
 
 <h2>Projects</h2>
