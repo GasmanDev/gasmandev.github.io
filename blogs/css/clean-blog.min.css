@@ -141,6 +141,10 @@ hr.small{
 	margin-top:0;
 	font-size:50px
 }
+.intro-header .page-heading h2,.intro-header .site-heading h2{
+	margin-top:0;
+	font-size:55px
+}
 .intro-header .page-heading .subheading,.intro-header .site-heading .subheading{
 	font-size:24px;
 	line-height:1.1;
