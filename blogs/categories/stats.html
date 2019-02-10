@@ -76,11 +76,14 @@
                         <a class="dropdown-toggle" id="menu1" data-toggle="dropdown" style="color:violet;">Hướng
                             dẫn&dArr;</a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/blogs/categories/stats.html">Trạng thái nhân vật</a></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/blogs/categories/skills.html">Kỹ năng nhân vật</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1"
+                                    href="/blogs/categories/stats.html">Trạng thái nhân vật</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1"
+                                    href="/blogs/categories/skills.html">Kỹ năng nhân vật</a></li>
                             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Đang cập nhật</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="/blogs/categories/download.html">Tải game</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1"
+                                    href="/blogs/categories/download.html">Tải game</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -102,7 +105,7 @@
                     <div class="page-heading">
                         <h2>Trạng thái nhân vật</h2>
                         <hr class="small">
-                        <span class="subheading">-</span>
+                        <span class="subheading">Thông tin và các loại trạng thái nhân vật</span>
                     </div>
                 </div>
             </div>
@@ -113,45 +116,107 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1 class="section-heading">Trạng thái nhân vật</h1>
+                <hr>
+                <p>Thông tin trạng thái nhân vật là tất cả các thuộc tính mà nhân vật sẽ có bao gồm:
+                    Sức khỏe, sức bền, đói và khát. Chúng có thể bị ảnh hưởng bỏi các sửa đổi khác nhau
+                    chi tiết xem ở dưới. Tất cả các thuộc tính đều có thể bị ảnh hưởng bởi việc sử dụng các vật phẩm
+                    tương ứng
+                </p>
+                <h1 class="section-heading">Sức khỏe - Health</h1>
+                <hr>
+                <p>Tất cả các nhân vật trong trò chơi, người chơi và NPC đều giống nhau, có chỉ số cơ bản là 100 máu.
+                    Khi hp của bạn về 0, bạn sẽ chết và sẽ hồi sinh. Bạn có thể hồi máu bằng cách sử
+                    dụng Medikit, điều trị y tế hoặc ăn thực phẩm. Sức khỏe cũng bị ảnh hưởng hoặc ảnh hưởng đến các
+                    trạng thái sau:</p>
+                <h3 class="subheading">1. Chảy máu - Bleeding</h3>
+                <p>Chịu sát thương từ vũ khí sắt nhọn có khả năng gây chảy máu, từ từ sẽ làm suy giảm sức khỏe của bạn.
+                    Trạng thái
+                    sẽ kéo dài nếu tiếp tục bị tấn công. Chảy máu có thể được chữa trị bằng cách sử
+                    dụng Băng (Bandage), hoặc nó sẽ tự dừng lại sau một khoảng thời gian ngẫu nhiên.</p>
+                <h3 class="subheading">2. Choáng (Mất nhận thức tạm thời) - Incapacitation</h3>
+                <p>Trạng thái này xuất hiện khi bạn dưới 30 máu và bị tấn công bằng vũ khí cận chiến;
+                    nhân vật của bạn quỳ xuống và không thể di chuyển hoặc chiến đấu trong 10 giây. Bạn vẫn có
+                    thể mở và sử dụng túi đồ của bạn. Nếu bạn không chết vào lúc này, bạn tỉnh dậy. Bạn có
+                    thể tỉnh ngay lập tức nếu bạn sử dụng Adrenaline Shot.</p>
+                <h3 class="subheading">3. Gãy xương - Fracture</h3>
+                <p>Rơi từ độ cao lớn hơn hoặc bị xe đâm có khả năng làm gãy xương của bạn. Bị đánh bằng vũ khí cận chiến
+                    cũng có
+                    thể gây ra điều này, nhưng với khả năng thấp hơn. Khi bạn nhãy khi bị gãy xương sẽ gây ra
+                    hiệu ứng đau. Làm điều đó nhiều lần có khả năng làm nặng thêm tình trạng gãy xương của bạn, tăng
+                    thêm -10 hp mỗi lần bạn nhấn phím nhảy. Trạng thái này chỉ có thể được chữa khỏi bằng cách
+                    sử dụng Nẹp(Splint).</p>
+                <h3 class="subheading">4. Đau đớn - Pain</h3>
+                <p>Bị phỏng hoặc bị zombie căn có khả năng nhỏ để kích động cơn đau, làm rung màn hình của bạn và khiến
+                    bạn
+                    không thể nhắm hoặc thực hiện các hành động phức tạp. Gãy xương cũng kích hoạt trạng thái này, lúc
+                    đầu khi bạn gãy xương và sau đó mỗi khi bạn nhảy (có thể xếp chồng lên nhau). Hiệu ứng này có thể
+                    được chữa bằng cách sử dụng Painkillers, nhưng nó sẽ tự dừng lại sau một khoảng thời gian ngẫu
+                    nhiên (cơn đau trở nên có thể chịu được khi bạn quen với nó).</p>
+                <h3 class="subheading">5. Hồi sinh - Resuscitation</h3>
+                <p>Nếu bạn bị chết, bạn có thể được hồi sinh bởi một nhân vật Hero Medic, sử dụng Adrenaline Shot,
+                    trong giới hạn 30 giây sau khi chết. Một số nguyên nhân gây tử vong khiến bạn chết hoàn toàn: bắn
+                    đầu, đốt, đói, khát, zombie cắn. Sau khi được hồi sinh, bạn sẽ chỉ có 30 hp, nhưng tình trạng
+                    ổn định - không chảy máu, gãy xương, đau đớn, v.v.</p>
 
-        </div>
-    </div>
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a target="_blank" href="https://www.facebook.com/groups/gaminghousevn/">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; DoomDay:SA 2019</p>
-                </div>
+                <h1 class="section-heading">Đói và khát</h1>
+                <hr>
+                <p>Đói và khát được thể hiện trong trò chơi bằng thanh màu vàng và màu xanh ở phía trên bên phải HUD của
+                    bạn. Họ bắt đầu ở 100 điểm và dần dần cạn kiệt. Thanh đói bị cạn kiệt với tốc độ 1 điểm / 18 giây,
+                    trong khi khát nhanh hơn một chút, với tốc độ 1 điểm / 12 giây. Khi họ về 0, sức khỏe của bạn sẽ dần
+                    bị tổn hại, cho đến khi bạn bị chết hoặc bạn phải ăn/uống một cái gì đó. Nói tóm lại, cứ sau 30
+                    phút bạn sẽ cần ăn một lần và uống một lần để tránh những tác động bất lợi.</p>
+                <h1 class="section-heading">Sức bền - Stamina</h1>
+                <hr>
+                <p>Sức bền được thể hiện bằng thanh màu xanh nhạt ở dưới cùng màn hình của bạn. Nó có giá trị ban
+                    đầu là
+                    1000 điểm và chạy nước rút, nhảy hoặc leo trèo sẽ bị trừ điểm. Khi sức bền của bạn dưới một
+                    giá trị
+                    nhất định, bạn sẽ mất khả năng chạy nước rút và nhảy. Khi sức bền dưới 300 điểm, việc nhắm mục
+                    tiêu của bạn sẽ bị ảnh hưởng. Bạn lấy lại sức bền khi cúi mình, chạy bộ, đi bộ, đứng yên hoặc
+                    sử dụng một số vật phẩm.</p>
+                <h3 class="subheading">Kiệt sức - Exhaustion</h3>
+                <p>Nếu bạn làm cạn kiệt thanh sức bền của mình và tiếp tục mà không cho nó cơ hội phục hồi,
+                    hành động của bạn sẽ bị gián đoạn bởi Animation 'exhaustion'. Hãy chắc chắn rằng bạn dừng lại một lúc
+                    để lấy lại sức mỗi khi điều này xảy ra.</p>
             </div>
         </div>
-    </footer>
 
-    <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
+        <hr>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <ul class="list-inline text-center">
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/groups/gaminghousevn/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="copyright text-muted">Copyright &copy; DoomDay:SA 2019</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    <!-- Contact Form JavaScript -->
-    <script src="../js/jqBootstrapValidation.js"></script>
-    <script src="../js/contact_me.js"></script>
+        <!-- jQuery -->
+        <script src="../vendor/jquery/jquery.min.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="../js/clean-blog.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="../js/jqBootstrapValidation.js"></script>
+        <script src="../js/contact_me.js"></script>
+
+        <!-- Theme JavaScript -->
+        <script src="../js/clean-blog.min.js"></script>
 
 </body>
 
